@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="MTB Test Suite">
+<parameter name="browserType" value="chrome"/>
+<test name="sample test">
+    <classes>
+      <class name="com.accolite.mtb.mtbqa.LoginTest"/>
+    </classes>
+  </test>
+  <test name="sample test2">
+    <classes>
+      <class name="com.accolite.mtb.mtbqa.LoginTest"/>
+    </classes>
+  </test>
+</suite>

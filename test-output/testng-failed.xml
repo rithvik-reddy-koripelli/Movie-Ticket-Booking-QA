@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MTB Test Suite]" parallel="tests">
+  <parameter name="browserType" value="chrome"/>
+  <test name="sample test(failed)" parallel="tests">
+    <classes>
+      <class name="com.accolite.mtb.mtbqa.LoginTest">
+        <methods>
+          <include name="testLoginPage"/>
+          <include name="setDriver"/>
+          <include name="init"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.accolite.mtb.mtbqa.LoginTest -->
+    </classes>
+  </test> <!-- sample test(failed) -->
+</suite> <!-- Failed suite [MTB Test Suite] -->

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MTB Test Suite" duration-ms="21119" started-at="2018-02-16T08:52:48Z" finished-at="2018-02-16T08:53:09Z">
+    <groups>
+    </groups>
+    <test name="sample test2" duration-ms="17978" started-at="2018-02-16T08:52:48Z" finished-at="2018-02-16T08:53:06Z">
+      <class name="com.accolite.mtb.mtbqa.LoginTest">
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:com.accolite.mtb.mtbqa.LoginTest@598067a5]" name="setDriver" is-config="true" duration-ms="5241" started-at="2018-02-16T14:22:48Z" finished-at="2018-02-16T14:22:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.accolite.mtb.mtbqa.LoginTest@598067a5]" name="init" is-config="true" duration-ms="0" started-at="2018-02-16T14:22:54Z" finished-at="2018-02-16T14:22:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testLoginPage()[pri:0, instance:com.accolite.mtb.mtbqa.LoginTest@598067a5]" name="testLoginPage" duration-ms="7609" started-at="2018-02-16T14:22:54Z" finished-at="2018-02-16T14:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.accolite.mtb.mtbqa.LoginTest@598067a5]" name="tearDown" is-config="true" duration-ms="5081" started-at="2018-02-16T14:23:01Z" finished-at="2018-02-16T14:23:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.accolite.mtb.mtbqa.LoginTest -->
+    </test> <!-- sample test2 -->
+    <test name="sample test" duration-ms="21119" started-at="2018-02-16T08:52:48Z" finished-at="2018-02-16T08:53:09Z">
+      <class name="com.accolite.mtb.mtbqa.LoginTest">
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:com.accolite.mtb.mtbqa.LoginTest@91161c7]" name="setDriver" is-config="true" duration-ms="8050" started-at="2018-02-16T14:22:48Z" finished-at="2018-02-16T14:22:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.accolite.mtb.mtbqa.LoginTest@91161c7]" name="init" is-config="true" duration-ms="0" started-at="2018-02-16T14:22:56Z" finished-at="2018-02-16T14:22:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testLoginPage()[pri:0, instance:com.accolite.mtb.mtbqa.LoginTest@91161c7]" name="testLoginPage" duration-ms="7915" started-at="2018-02-16T14:22:56Z" finished-at="2018-02-16T14:23:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.accolite.mtb.mtbqa.LoginTest@91161c7]" name="tearDown" is-config="true" duration-ms="5119" started-at="2018-02-16T14:23:04Z" finished-at="2018-02-16T14:23:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.accolite.mtb.mtbqa.LoginTest -->
+    </test> <!-- sample test -->
+  </suite> <!-- MTB Test Suite -->
+</testng-results>
