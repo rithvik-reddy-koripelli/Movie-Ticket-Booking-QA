@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="tests" name="MTB Test Suite">
+<suite name="MTB Test Suite">
 <parameter name="browserType" value="chrome"/>
 <test name="sample test">
     <classes>
